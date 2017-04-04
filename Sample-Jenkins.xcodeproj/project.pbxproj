@@ -100,7 +100,7 @@
 					C52EDAFB1E92407F0073C891 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = YA5NH562EY;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -265,11 +265,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.Sample-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5aa96ad-4899-41d9-9ead-3f562ccac159";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDemoProfile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,11 +281,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.Sample-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e5aa96ad-4899-41d9-9ead-3f562ccac159";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsDemoProfile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +312,7 @@
 				C52EDB131E92407F0073C891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
