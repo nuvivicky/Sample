@@ -268,6 +268,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Bhaskar Rao Ramineni (YA5NH562EY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bhaskar Rao Ramineni (YA5NH562EY)";
 				DEVELOPMENT_TEAM = YA5NH562EY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -286,6 +287,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Bhaskar Rao Ramineni (YA5NH562EY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bhaskar Rao Ramineni (YA5NH562EY)";
 				DEVELOPMENT_TEAM = YA5NH562EY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
