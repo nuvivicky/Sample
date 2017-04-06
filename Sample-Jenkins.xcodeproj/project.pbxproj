@@ -270,7 +270,7 @@
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.Sample-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +289,7 @@
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Sample-Jenkins/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.Sample-Jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
